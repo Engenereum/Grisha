@@ -20,7 +20,7 @@ class Player(Sprite):
             'idle_right': Animation('anims/idle_right/'),
         }
         self.image = self.anims['down'].image
-        self.rect = self.image.get_rect(center=(350,350))
+        self.rect = self.image.get_rect(center=(95,350))
         self.current_anim = 'down'
         self.previous_anim = 'down'                    #-_-
         self.anim = self.anims[self.current_anim]
